@@ -1,0 +1,13 @@
+@use "../utils/mixins";
+
+.container {
+  @include mixins.container;
+}
+
+nav {
+  @include mixins.nav;
+}
+
+.avatar {
+  @include mixins.avatar;
+}

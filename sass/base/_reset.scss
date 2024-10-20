@@ -1,0 +1,39 @@
+@use "../utils/mixins";
+
+* {
+  @include mixins.star;
+  @include mixins.font;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  ul,
+  li,
+  a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgba(65, 65, 65, 1);
+  }
+
+  @media (max-width: 450px) {
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+    max-width: 100%;
+    background: white;
+    padding: 10px 0;
+    // border-top: 1px solid rgba(65, 65, 65, 0.2);
+
+    ul {
+      flex-direction: row;
+      justify-content: center;
+      gap: 15px;
+    }
+  }
+}

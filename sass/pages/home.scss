@@ -1,0 +1,14 @@
+@use "../utils/mixins";
+
+.dostavka {
+  @include mixins.dostavka;
+}
+.frames {
+  @include mixins.frames;
+}
+.magazine-location {
+  @include mixins.magazin-local;
+}
+.stati {
+  @include mixins.stat;
+}

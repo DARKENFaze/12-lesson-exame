@@ -1,0 +1,8 @@
+@use "../utils/mixins";
+.menu {
+  @include mixins.menu;
+}
+
+.search {
+  @include mixins.search;
+}
