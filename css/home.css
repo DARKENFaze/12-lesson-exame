@@ -6,6 +6,11 @@
 .spet-programm {
   display: flex;
   flex-direction: column;
+  padding-top: 25px;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 .spet-programm h1 {
   font-family: Rubik;
@@ -17,6 +22,19 @@
 .spet-programm .two-card {
   display: flex;
   justify-content: space-between;
+  gap: 25px;
+}
+@media (max-width: 1230px) {
+  .spet-programm .two-card {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+  }
+}
+@media (max-width: 650px) {
+  .spet-programm .two-card {
+    max-width: 100%;
+  }
 }
 .spet-programm .two-card .in-cards {
   display: flex;
@@ -30,6 +48,13 @@
   opacity: 0px;
   padding-left: 15px;
 }
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+}
 .spet-programm .two-card .in-cards h3 {
   font-family: Rubik;
   font-size: 24px;
@@ -37,9 +62,13 @@
   line-height: 36px;
   text-align: left;
   width: 258px;
-  height: 72px;
   gap: 0px;
   opacity: 0px;
+}
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards h3 {
+    font-size: 15px;
+  }
 }
 .spet-programm .two-card .in-cards p {
   font-family: Rubik;
@@ -52,6 +81,19 @@
   gap: 0px;
   opacity: 0px;
 }
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 650px) {
+  .spet-programm .two-card .card-img img {
+    max-width: 100%;
+    width: 150px;
+    position: relative;
+    bottom: 30px;
+  }
+}
 .spet-programm .two-card .card-two {
   background: rgb(229, 255, 222);
   box-shadow: 0px 8px 16px 0px rgba(96, 202, 114, 0.5);
@@ -61,6 +103,8 @@
   background-image: url(../../assets/img/dostavka-bg.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+  top: 103px;
 }
 .dostavka .sliders {
   display: flex;
@@ -103,6 +147,7 @@
   flex-direction: column;
   background-color: rgb(250, 247, 235);
   padding: 25px;
+  margin-top: 103px;
 }
 .frames .on-text {
   display: flex;
@@ -130,10 +175,21 @@
   line-height: 24px;
   text-align: right;
 }
+.frames .aksiya {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
 .frames .aksiya .foots {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+@media (max-width: 1388px) {
+  .frames .aksiya .foots .two-foot-one-for {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .frames .aksiya .foot {
   display: flex;

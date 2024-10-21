@@ -8,6 +8,11 @@
 .spet-programm {
   display: flex;
   flex-direction: column;
+  padding-top: 25px;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .spet-programm h1 {
@@ -21,8 +26,21 @@
 .spet-programm .two-card {
   display: flex;
   justify-content: space-between;
+  gap: 25px;
 }
 
+@media (max-width: 1230px) {
+  .spet-programm .two-card {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+  }
+}
+@media (max-width: 650px) {
+  .spet-programm .two-card {
+    max-width: 100%;
+  }
+}
 .spet-programm .two-card .in-cards {
   display: flex;
   align-items: center;
@@ -36,6 +54,13 @@
   padding-left: 15px;
 }
 
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+}
 .spet-programm .two-card .in-cards h3 {
   font-family: Rubik;
   font-size: 24px;
@@ -43,11 +68,15 @@
   line-height: 36px;
   text-align: left;
   width: 258px;
-  height: 72px;
   gap: 0px;
   opacity: 0px;
 }
 
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards h3 {
+    font-size: 15px;
+  }
+}
 .spet-programm .two-card .in-cards p {
   font-family: Rubik;
   font-size: 16px;
@@ -60,6 +89,19 @@
   opacity: 0px;
 }
 
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 650px) {
+  .spet-programm .two-card .card-img img {
+    max-width: 100%;
+    width: 150px;
+    position: relative;
+    bottom: 30px;
+  }
+}
 .spet-programm .two-card .card-two {
   background: rgb(229, 255, 222);
   box-shadow: 0px 8px 16px 0px rgba(96, 202, 114, 0.5);
@@ -103,6 +145,13 @@
     gap: 15px;
   }
 }
+@media (max-width: 390px) {
+  .nav-bar {
+    position: fixed;
+    bottom: 0;
+    left: 21%;
+  }
+}
 
 @media (max-width: 768px) {
   .brend_text {
@@ -112,6 +161,11 @@
 .spet-programm {
   display: flex;
   flex-direction: column;
+  padding-top: 25px;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .spet-programm h1 {
@@ -125,8 +179,21 @@
 .spet-programm .two-card {
   display: flex;
   justify-content: space-between;
+  gap: 25px;
 }
 
+@media (max-width: 1230px) {
+  .spet-programm .two-card {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+  }
+}
+@media (max-width: 650px) {
+  .spet-programm .two-card {
+    max-width: 100%;
+  }
+}
 .spet-programm .two-card .in-cards {
   display: flex;
   align-items: center;
@@ -140,6 +207,13 @@
   padding-left: 15px;
 }
 
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+}
 .spet-programm .two-card .in-cards h3 {
   font-family: Rubik;
   font-size: 24px;
@@ -147,11 +221,15 @@
   line-height: 36px;
   text-align: left;
   width: 258px;
-  height: 72px;
   gap: 0px;
   opacity: 0px;
 }
 
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards h3 {
+    font-size: 15px;
+  }
+}
 .spet-programm .two-card .in-cards p {
   font-family: Rubik;
   font-size: 16px;
@@ -164,6 +242,19 @@
   opacity: 0px;
 }
 
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 650px) {
+  .spet-programm .two-card .card-img img {
+    max-width: 100%;
+    width: 150px;
+    position: relative;
+    bottom: 30px;
+  }
+}
 .spet-programm .two-card .card-two {
   background: rgb(229, 255, 222);
   box-shadow: 0px 8px 16px 0px rgba(96, 202, 114, 0.5);
@@ -191,6 +282,15 @@
 }
 
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.5137254902);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 25px 20px;
   display: flex;
   justify-content: space-around;
@@ -247,6 +347,11 @@ nav .brend a {
 .spet-programm {
   display: flex;
   flex-direction: column;
+  padding-top: 25px;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .spet-programm h1 {
@@ -260,8 +365,21 @@ nav .brend a {
 .spet-programm .two-card {
   display: flex;
   justify-content: space-between;
+  gap: 25px;
 }
 
+@media (max-width: 1230px) {
+  .spet-programm .two-card {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+  }
+}
+@media (max-width: 650px) {
+  .spet-programm .two-card {
+    max-width: 100%;
+  }
+}
 .spet-programm .two-card .in-cards {
   display: flex;
   align-items: center;
@@ -275,6 +393,13 @@ nav .brend a {
   padding-left: 15px;
 }
 
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+}
 .spet-programm .two-card .in-cards h3 {
   font-family: Rubik;
   font-size: 24px;
@@ -282,11 +407,15 @@ nav .brend a {
   line-height: 36px;
   text-align: left;
   width: 258px;
-  height: 72px;
   gap: 0px;
   opacity: 0px;
 }
 
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards h3 {
+    font-size: 15px;
+  }
+}
 .spet-programm .two-card .in-cards p {
   font-family: Rubik;
   font-size: 16px;
@@ -299,6 +428,19 @@ nav .brend a {
   opacity: 0px;
 }
 
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 650px) {
+  .spet-programm .two-card .card-img img {
+    max-width: 100%;
+    width: 150px;
+    position: relative;
+    bottom: 30px;
+  }
+}
 .spet-programm .two-card .card-two {
   background: rgb(229, 255, 222);
   box-shadow: 0px 8px 16px 0px rgba(96, 202, 114, 0.5);
@@ -335,6 +477,13 @@ nav .brend a {
     border-radius: 4px;
   }
 }
+@media (max-width: 390px) {
+  .menu {
+    position: fixed;
+    bottom: 8px;
+    left: 15px;
+  }
+}
 
 .search {
   display: flex;
@@ -358,6 +507,11 @@ nav .brend a {
 .spet-programm {
   display: flex;
   flex-direction: column;
+  padding-top: 25px;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .spet-programm h1 {
@@ -371,8 +525,21 @@ nav .brend a {
 .spet-programm .two-card {
   display: flex;
   justify-content: space-between;
+  gap: 25px;
 }
 
+@media (max-width: 1230px) {
+  .spet-programm .two-card {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+  }
+}
+@media (max-width: 650px) {
+  .spet-programm .two-card {
+    max-width: 100%;
+  }
+}
 .spet-programm .two-card .in-cards {
   display: flex;
   align-items: center;
@@ -386,6 +553,13 @@ nav .brend a {
   padding-left: 15px;
 }
 
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+}
 .spet-programm .two-card .in-cards h3 {
   font-family: Rubik;
   font-size: 24px;
@@ -393,11 +567,15 @@ nav .brend a {
   line-height: 36px;
   text-align: left;
   width: 258px;
-  height: 72px;
   gap: 0px;
   opacity: 0px;
 }
 
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards h3 {
+    font-size: 15px;
+  }
+}
 .spet-programm .two-card .in-cards p {
   font-family: Rubik;
   font-size: 16px;
@@ -410,6 +588,19 @@ nav .brend a {
   opacity: 0px;
 }
 
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 650px) {
+  .spet-programm .two-card .card-img img {
+    max-width: 100%;
+    width: 150px;
+    position: relative;
+    bottom: 30px;
+  }
+}
 .spet-programm .two-card .card-two {
   background: rgb(229, 255, 222);
   box-shadow: 0px 8px 16px 0px rgba(96, 202, 114, 0.5);
@@ -535,6 +726,11 @@ footer .social-media .call-phone {
 .spet-programm {
   display: flex;
   flex-direction: column;
+  padding-top: 25px;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .spet-programm h1 {
@@ -548,8 +744,21 @@ footer .social-media .call-phone {
 .spet-programm .two-card {
   display: flex;
   justify-content: space-between;
+  gap: 25px;
 }
 
+@media (max-width: 1230px) {
+  .spet-programm .two-card {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+  }
+}
+@media (max-width: 650px) {
+  .spet-programm .two-card {
+    max-width: 100%;
+  }
+}
 .spet-programm .two-card .in-cards {
   display: flex;
   align-items: center;
@@ -563,6 +772,13 @@ footer .social-media .call-phone {
   padding-left: 15px;
 }
 
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+}
 .spet-programm .two-card .in-cards h3 {
   font-family: Rubik;
   font-size: 24px;
@@ -570,11 +786,15 @@ footer .social-media .call-phone {
   line-height: 36px;
   text-align: left;
   width: 258px;
-  height: 72px;
   gap: 0px;
   opacity: 0px;
 }
 
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards h3 {
+    font-size: 15px;
+  }
+}
 .spet-programm .two-card .in-cards p {
   font-family: Rubik;
   font-size: 16px;
@@ -587,6 +807,19 @@ footer .social-media .call-phone {
   opacity: 0px;
 }
 
+@media (max-width: 650px) {
+  .spet-programm .two-card .in-cards p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 650px) {
+  .spet-programm .two-card .card-img img {
+    max-width: 100%;
+    width: 150px;
+    position: relative;
+    bottom: 30px;
+  }
+}
 .spet-programm .two-card .card-two {
   background: rgb(229, 255, 222);
   box-shadow: 0px 8px 16px 0px rgba(96, 202, 114, 0.5);
@@ -596,6 +829,8 @@ footer .social-media .call-phone {
   background-image: url(../../assets/img/dostavka-bg.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+  top: 103px;
 }
 .dostavka .sliders {
   display: flex;
@@ -638,6 +873,7 @@ footer .social-media .call-phone {
   flex-direction: column;
   background-color: rgb(250, 247, 235);
   padding: 25px;
+  margin-top: 103px;
 }
 .frames .on-text {
   display: flex;
@@ -665,10 +901,21 @@ footer .social-media .call-phone {
   line-height: 24px;
   text-align: right;
 }
+.frames .aksiya {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
 .frames .aksiya .foots {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+@media (max-width: 1388px) {
+  .frames .aksiya .foots .two-foot-one-for {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .frames .aksiya .foot {
   display: flex;
