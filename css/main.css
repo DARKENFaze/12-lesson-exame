@@ -1069,6 +1069,30 @@ footer .social-media .call-phone {
 .magazine-location .store-container .content-container .content-section {
   display: none;
 }
+@media (max-width: 1376px) {
+  .magazine-location .store-container .content-container .content-section iframe {
+    width: 900px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 1056px) {
+  .magazine-location .store-container .content-container .content-section iframe {
+    width: 700px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 855px) {
+  .magazine-location .store-container .content-container .content-section iframe {
+    width: 600px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 750px) {
+  .magazine-location .store-container .content-container .content-section iframe {
+    width: 500px;
+    max-width: 100%;
+  }
+}
 .magazine-location .store-container .content-container .content-section.active {
   display: block;
 }
@@ -1094,6 +1118,7 @@ footer .social-media .call-phone {
   padding: 10px;
   width: 29%;
   border-radius: 4px;
+  max-width: 100%;
 }
 .stati .three-card .card-1 img {
   border-radius: 4px;

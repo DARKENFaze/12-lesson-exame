@@ -513,6 +513,34 @@
       .content-section {
         display: none;
 
+        @media (max-width: 1376px) {
+          iframe {
+            width: 900px;
+            max-width: 100%;
+          }
+        }
+
+        @media (max-width: 1056px) {
+          iframe {
+            width: 700px;
+            max-width: 100%;
+          }
+        }
+
+        @media (max-width: 855px) {
+          iframe {
+            width: 600px;
+            max-width: 100%;
+          }
+        }
+
+        @media (max-width: 750px) {
+          iframe {
+            width: 500px;
+            max-width: 100%;
+          }
+        }
+
         &.active {
           display: block;
         }
@@ -546,6 +574,7 @@
       padding: 10px;
       width: 29%;
       border-radius: 4px;
+      max-width: 100%;
 
       img {
         border-radius: 4px;
