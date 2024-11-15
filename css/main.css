@@ -5,6 +5,63 @@
     display: none;
   }
 }
+.menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu .menu-toggle {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.menu p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.menu .menu-items {
+  display: none;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20vw;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 65vw;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.menu .menu-items .menu-item {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  flex: 1 1 calc(33.33% - 20px);
+  color: rgb(65, 65, 65);
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  transition: 0.1s ease-in-out;
+}
+
+.menu .menu-items .menu-item:hover {
+  background-color: #ddd;
+  color: rgb(255, 102, 51);
+}
+
+.menu:hover .menu-items {
+  display: flex;
+}
+
 .spet-programm {
   display: flex;
   flex-direction: column;
@@ -158,6 +215,63 @@
     display: none;
   }
 }
+.menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu .menu-toggle {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.menu p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.menu .menu-items {
+  display: none;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20vw;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 65vw;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.menu .menu-items .menu-item {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  flex: 1 1 calc(33.33% - 20px);
+  color: rgb(65, 65, 65);
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  transition: 0.1s ease-in-out;
+}
+
+.menu .menu-items .menu-item:hover {
+  background-color: #ddd;
+  color: rgb(255, 102, 51);
+}
+
+.menu:hover .menu-items {
+  display: flex;
+}
+
 .spet-programm {
   display: flex;
   flex-direction: column;
@@ -344,6 +458,63 @@ nav .brend a {
     display: none;
   }
 }
+.menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu .menu-toggle {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.menu p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.menu .menu-items {
+  display: none;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20vw;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 65vw;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.menu .menu-items .menu-item {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  flex: 1 1 calc(33.33% - 20px);
+  color: rgb(65, 65, 65);
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  transition: 0.1s ease-in-out;
+}
+
+.menu .menu-items .menu-item:hover {
+  background-color: #ddd;
+  color: rgb(255, 102, 51);
+}
+
+.menu:hover .menu-items {
+  display: flex;
+}
+
 .spet-programm {
   display: flex;
   flex-direction: column;
@@ -504,6 +675,63 @@ nav .brend a {
     display: none;
   }
 }
+.menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu .menu-toggle {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.menu p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.menu .menu-items {
+  display: none;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20vw;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 65vw;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.menu .menu-items .menu-item {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  flex: 1 1 calc(33.33% - 20px);
+  color: rgb(65, 65, 65);
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  transition: 0.1s ease-in-out;
+}
+
+.menu .menu-items .menu-item:hover {
+  background-color: #ddd;
+  color: rgb(255, 102, 51);
+}
+
+.menu:hover .menu-items {
+  display: flex;
+}
+
 .spet-programm {
   display: flex;
   flex-direction: column;
@@ -723,6 +951,63 @@ footer .social-media .call-phone {
     display: none;
   }
 }
+.menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu .menu-toggle {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.menu p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.menu .menu-items {
+  display: none;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20vw;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 65vw;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.menu .menu-items .menu-item {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  flex: 1 1 calc(33.33% - 20px);
+  color: rgb(65, 65, 65);
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  transition: 0.1s ease-in-out;
+}
+
+.menu .menu-items .menu-item:hover {
+  background-color: #ddd;
+  color: rgb(255, 102, 51);
+}
+
+.menu:hover .menu-items {
+  display: flex;
+}
+
 .spet-programm {
   display: flex;
   flex-direction: column;
@@ -1168,6 +1453,63 @@ footer .social-media .call-phone {
     display: none;
   }
 }
+.menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu .menu-toggle {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.menu p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.menu .menu-items {
+  display: none;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20vw;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 65vw;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.menu .menu-items .menu-item {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  flex: 1 1 calc(33.33% - 20px);
+  color: rgb(65, 65, 65);
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  transition: 0.1s ease-in-out;
+}
+
+.menu .menu-items .menu-item:hover {
+  background-color: #ddd;
+  color: rgb(255, 102, 51);
+}
+
+.menu:hover .menu-items {
+  display: flex;
+}
+
 .spet-programm {
   display: flex;
   flex-direction: column;

@@ -13,3 +13,8 @@ buttons.forEach((button) => {
     document.getElementById(target).style.display = "block";
   });
 });
+
+// ----------------------------------------------------------------
+document.querySelector(".menu-button").addEventListener("click", function () {
+  document.querySelector(".menu-container").classList.toggle("active");
+});
