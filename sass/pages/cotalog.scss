@@ -1,0 +1,27 @@
+@use "../utils/mixins";
+
+.cotalog {
+  h1 {
+    font-family: Rubik;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(65, 65, 65, 1);
+  }
+}
+.cotalog-bg {
+  background: rgba(251, 248, 236, 1);
+  margin-top: 5.5vw;
+}
+.cotalog-row {
+  @include mixins.cotal;
+}
+.cotalog-links {
+  @include mixins.ct-links;
+}
+.cotalog-container {
+  @include mixins.ct-container;
+}
